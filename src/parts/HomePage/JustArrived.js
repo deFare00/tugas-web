@@ -22,7 +22,7 @@ export default function JustArrived() {
               style={{width: 287, height: 386}}
             >
               <div
-                className="absolute opacity-0 group-hover:opacity-100 transition duration-200 flex items-center justify-center w-full h-full bg-black bg-opacity-35"
+                className="absolute opacity-0 group-hover:opacity-80 transition duration-200 flex items-center justify-center w-full h-full bg-black bg-opacity-35"
               >
                 <div
                   className="bg-white text-black rounded-full w-16 h-16 flex items-center justify-center"
@@ -62,7 +62,7 @@ export default function JustArrived() {
               style={{width: 287, height: 386}}
             >
               <div
-                className="absolute opacity-0 group-hover:opacity-100 transition duration-200 flex items-center justify-center w-full h-full bg-black bg-opacity-35"
+                className="absolute opacity-0 group-hover:opacity-80 transition duration-200 flex items-center justify-center w-full h-full bg-black bg-opacity-35"
               >
                 <div
                   className="bg-white text-black rounded-full w-16 h-16 flex items-center justify-center"
@@ -102,7 +102,7 @@ export default function JustArrived() {
               style={{width: 287, height: 386}}
             >
               <div
-                className="absolute opacity-0 group-hover:opacity-100 transition duration-200 flex items-center justify-center w-full h-full bg-black bg-opacity-35"
+                className="absolute opacity-0 group-hover:opacity-80 transition duration-200 flex items-center justify-center w-full h-full bg-black bg-opacity-35"
               >
                 <div
                   className="bg-white text-black rounded-full w-16 h-16 flex items-center justify-center"
@@ -142,7 +142,7 @@ export default function JustArrived() {
               style={{width: 287, height: 386}}
             >
               <div
-                className="absolute opacity-0 group-hover:opacity-100 transition duration-200 flex items-center justify-center w-full h-full bg-black bg-opacity-35"
+                className="absolute opacity-0 group-hover:opacity-80 transition duration-200 flex items-center justify-center w-full h-full bg-black bg-opacity-35"
               >
                 <div
                   className="bg-white text-black rounded-full w-16 h-16 flex items-center justify-center"
@@ -182,7 +182,7 @@ export default function JustArrived() {
               style={{width: 287, height: 386}}
             >
               <div
-                className="absolute opacity-0 group-hover:opacity-100 transition duration-200 flex items-center justify-center w-full h-full bg-black bg-opacity-35"
+                className="absolute opacity-0 group-hover:opacity-80 transition duration-200 flex items-center justify-center w-full h-full bg-black bg-opacity-35"
               >
                 <div
                   className="bg-white text-black rounded-full w-16 h-16 flex items-center justify-center"
@@ -222,7 +222,7 @@ export default function JustArrived() {
               style={{width: 287, height: 386}}
             >
               <div
-                className="absolute opacity-0 group-hover:opacity-100 transition duration-200 flex items-center justify-center w-full h-full bg-black bg-opacity-35"
+                className="absolute opacity-0 group-hover:opacity-80 transition duration-200 flex items-center justify-center w-full h-full bg-black bg-opacity-35"
               >
                 <div
                   className="bg-white text-black rounded-full w-16 h-16 flex items-center justify-center"
@@ -262,7 +262,7 @@ export default function JustArrived() {
               style={{width: 287, height: 386}}
             >
               <div
-                className="absolute opacity-0 group-hover:opacity-100 transition duration-200 flex items-center justify-center w-full h-full bg-black bg-opacity-35"
+                className="absolute opacity-0 group-hover:opacity-80 transition duration-200 flex items-center justify-center w-full h-full bg-black bg-opacity-35"
               >
                 <div
                   className="bg-white text-black rounded-full w-16 h-16 flex items-center justify-center"
