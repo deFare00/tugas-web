@@ -3,8 +3,8 @@ import React from 'react';
 import Header from '../parts/Header';
 import Breadcrumb from '../components/Breadcrumb';
 
-import ProductDetails from '../parts/Details/ProductDetails';
-import Suggestion from '../parts/Details/Suggestion'
+import ShoppingCart from '../parts/Cart/ShoppingCart';
+import ShippingDetails from '../parts/Cart/ShippingDetails'
 // import BrowseRoom from '../parts/HomePage/BrowseRoom';
 // import JustArrived from '../parts/HomePage/JustArrived';
 
@@ -18,12 +18,18 @@ export default function HomePage() {
 
         <Breadcrumb list={[
           { url: "/", name: "Home"},
-          { url: "/categories/91231", name: "Office Room"},
-          { url: "/categories/91231/products/7888", name: "Details"},
+          { url: "/cart", name: "Shopping Cart"},
         ]} />
-        <ProductDetails />
-        <Suggestion />
-        {/*<Clients />*/}
+
+        <section class="md:py-16">
+            <div class="container mx-auto px-4">
+                <div class="flex -mx-4 flex-wrap">
+                    <ShoppingCart />
+                    <ShippingDetails />
+                </div>
+            </div>
+        </section>
+
         <Sitemap />
         <Footer />
     </>
