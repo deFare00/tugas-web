@@ -1,9 +1,11 @@
 import './assets/css/App.css';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import HomePage from './pages/HomePage';
 import Details from './pages/Details';
 import Cart from './pages/Cart';
+import Congratulation from './pages/Congratulation';
+import NotFound from './pages/NotFound';
 
 
 
@@ -11,9 +13,13 @@ function App() {
   return (
     <div className='App'>
       <Router>
-        <Route exact path='/' component={HomePage} />
-        <Route path='/categories/:idc' component={Details} />
-        <Route path='/cart' component={Cart} />
+        <Switch>
+          <Route exact path='/' component={HomePage} />
+          <Route path='/categories/:idc' component={Details} />
+          <Route path='/cart' component={Cart} />
+          <Route path='/congratulation' component={Congratulation} />
+          <Route path='*' component={NotFound} />
+        </Switch>
       </Router>
     </div>
   );
