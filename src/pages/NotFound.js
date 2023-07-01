@@ -6,15 +6,17 @@ import PageErrorMessage from '../parts/PageErrorMessage';
 import Sitemap from '../parts/Sitemap';
 import Footer from '../parts/Footer';
 
+import Document from '../parts/Document';
+
 export default function NotFound() {
   return (
-    <>
+    <Document>
     <Header theme="black" />
 
     <PageErrorMessage />
 
     <Sitemap />
     <Footer />
-    </>
+    </Document>
   )
 }

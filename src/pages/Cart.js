@@ -11,9 +11,11 @@ import ShippingDetails from '../parts/Cart/ShippingDetails'
 import Sitemap from '../parts/Sitemap';
 import Footer from '../parts/Footer';
 
+import Document from '../parts/Document';
+
 export default function HomePage() {
   return (
-    <>
+    <Document>
         <Header theme="black" />
 
         <Breadcrumb list={[
@@ -32,6 +34,6 @@ export default function HomePage() {
 
         <Sitemap />
         <Footer />
-    </>
+    </Document>
   )
 }

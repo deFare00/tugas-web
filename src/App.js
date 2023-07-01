@@ -7,21 +7,22 @@ import Cart from './pages/Cart';
 import Congratulation from './pages/Congratulation';
 import NotFound from './pages/NotFound';
 
-
+import Provider from  './helpers/hooks/useGlobalContext'
 
 function App() {
   return (
-    <div className='App'>
+    <Provider>
       <Router>
         <Switch>
-          <Route exact path='/' component={HomePage} />
-          <Route path='/categories/:idc' component={Details} />
-          <Route path='/cart' component={Cart} />
-          <Route path='/congratulation' component={Congratulation} />
-          <Route path='*' component={NotFound} />
+          <Route exact path="/" component={HomePage} />
+          <Route exact path="/categories/:idc" component={Details} />
+          <Route path="/categories/:idc/products/:idp" component={Details} />
+          <Route path="/cart" component={Cart} />
+          <Route path="/congratulation" component={Congratulation} />
+          <Route path="*" component={NotFound} />
         </Switch>
       </Router>
-    </div>
+    </Provider>
   );
 }
 
